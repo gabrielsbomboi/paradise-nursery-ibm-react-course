@@ -42,6 +42,10 @@ nav a:not(.cart-icon) {
         color: #fff;
         text-decoration: underline;
     }
+
+    &.active {
+        text-decoration: underline;
+    }
 }
 
 .cart-icon {

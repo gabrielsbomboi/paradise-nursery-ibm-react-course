@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import './Navbar.css';
 
@@ -8,13 +8,13 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="navbar-content content-wrapper">
-        <Link to="/" className="logo">Paradise Nursery</Link>
+        <NavLink to="/" className="logo">Paradise Nursery</NavLink>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/products">Products</Link>
-          <Link to="/cart" className="cart-icon">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/products">Products</NavLink>
+          <NavLink to="/cart" className="cart-icon">
             📦 <span className="cart-count">{totalQuantity}</span>
-          </Link>
+          </NavLink>
         </nav>
       </div>
     </header>
