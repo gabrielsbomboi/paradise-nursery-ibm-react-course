@@ -1,10 +1,10 @@
-import pothosImg from '../paradise-nursery-ibm-react-course/assets/images/plants/pothos.webp';
-import snakePlantImg from '../paradise-nursery-ibm-react-course/assets/images/plants/snake-plant.webp';
-import monsteraImg from '../paradise-nursery-ibm-react-course/assets/images/plants/monstera.webp';
-import aloeVeraImg from '../paradise-nursery-ibm-react-course/assets/images/plants/aloe-vera.jpg';
-import echeveriaImg from '../paradise-nursery-ibm-react-course/assets/images/plants/echeveria.jpg';
-import peaceLilyImg from '../paradise-nursery-ibm-react-course/assets/images/plants/peace-lily.jpg';
-import orchidImg from '../paradise-nursery-ibm-react-course/assets/images/plants/orchid.webp';
+import pothosImg from '../assets/images/plants/pothos.webp';
+import snakePlantImg from '../assets/images/plants/snake-plant.webp';
+import monsteraImg from '../assets/images/plants/monstera.webp';
+import aloeVeraImg from '../assets/images/plants/aloe-vera.jpg';
+import echeveriaImg from '../assets/images/plants/echeveria.jpg';
+import peaceLilyImg from '../assets/images/plants/peace-lily.jpg';
+import orchidImg from '../assets/images/plants/orchid.webp';
 
 export const products = [
     { id: 1, name: 'Monstera', price: 42.00, category: 'Indoor Plants', image: monsteraImg },
