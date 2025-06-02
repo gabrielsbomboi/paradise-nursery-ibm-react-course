@@ -1,0 +1,105 @@
+:root {
+    font-size: 16px;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: #2e2e2e;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --navbar-height: 5rem;
+    
+    --color-primary: #5f7a61;
+    --color-secondary: #a3be85;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fcfaf1;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:not(button) {
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: inherit;
+}
+
+a:not(button):hover {
+    color: var(--color-secondary);
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--color-primary);
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-size: 1.125rem;
+}
+
+.button:not(:disabled):hover {
+    color: #fff;
+    background-color: var(--color-secondary);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    background-color: #dadada;
+    color: #808080;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.page {
+    width: 100%;
+}
+
+.content-wrapper {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
